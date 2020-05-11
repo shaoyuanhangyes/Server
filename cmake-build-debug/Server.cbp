@@ -99,6 +99,12 @@
 		<Unit filename="/home/syh/CLionProjects/Server/threadpool/threadpool.h">
 			<Option target="Server"/>
 		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/timer/timer.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/timer/timer.h">
+			<Option target="Server"/>
+		</Unit>
 		<Unit filename="/home/syh/CLionProjects/Server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

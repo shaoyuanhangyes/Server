@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+timer/timer.o: timer/timer.cpp.o
+
+.PHONY : timer/timer.o
+
+# target to build an object file
+timer/timer.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/timer/timer.cpp.o
+.PHONY : timer/timer.cpp.o
+
+timer/timer.i: timer/timer.cpp.i
+
+.PHONY : timer/timer.i
+
+# target to preprocess a source file
+timer/timer.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/timer/timer.cpp.i
+.PHONY : timer/timer.cpp.i
+
+timer/timer.s: timer/timer.cpp.s
+
+.PHONY : timer/timer.s
+
+# target to generate assembly for a file
+timer/timer.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/timer/timer.cpp.s
+.PHONY : timer/timer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... timer/timer.o"
+	@echo "... timer/timer.i"
+	@echo "... timer/timer.s"
 .PHONY : help
 
 
