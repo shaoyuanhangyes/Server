@@ -78,7 +78,7 @@ private:
     bool add_status_line(int status,const char* title);
     bool add_headers(int content_length);
     bool add_content_type();
-    bool add_content_length(int content_length);
+    bool add_content_length(int content_len);
     bool add_linger();
     bool add_blank_line();
 
