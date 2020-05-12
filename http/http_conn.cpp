@@ -1,6 +1,5 @@
 #include "http_conn.h"
 #include <fstream>
-#include <string>
 #include <mysql/mysql.h>
 #include "../log/log.h"
 
