@@ -84,6 +84,27 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/syh/CLionProjects/Server/CGImysql/sign.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/CGImysql/sql_connection_pool.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/CGImysql/sql_connection_pool.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/WebServer/webserver.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/WebServer/webserver.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/config/config.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/config/config.h">
+			<Option target="Server"/>
+		</Unit>
 		<Unit filename="/home/syh/CLionProjects/Server/http/http_conn.cpp">
 			<Option target="Server"/>
 		</Unit>
@@ -91,6 +112,15 @@
 			<Option target="Server"/>
 		</Unit>
 		<Unit filename="/home/syh/CLionProjects/Server/lock/lock.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/log/block_queue.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/log/log.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/syh/CLionProjects/Server/log/log.h">
 			<Option target="Server"/>
 		</Unit>
 		<Unit filename="/home/syh/CLionProjects/Server/main.cpp">

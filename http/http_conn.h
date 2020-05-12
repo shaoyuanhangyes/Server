@@ -21,8 +21,9 @@
 #include <errno.h>
 #include <sys/wait.h>
 #include <sys/uio.h>
+#include <map>
 #include "../lock/lock.h"
-
+#include "../CGImysql/sql_connection_pool.h"
 class http_conn{
 public:
     //设置读取文件的名称m_real_file大小
@@ -46,7 +47,7 @@ public:
 
 public:
     //初始化套接字地址，函数内部会调用私有方法init
-    void init(int sockfd,const sockaddr_in &addr);
+    void init(int sockfd, const sockaddr_in &addr, char *, map<string, string> &, int, int, int, string user, string passwd, string sqlname);
     void close_conn(bool real_close=true);//关闭http连接
     void process();
     bool read_once();//读取浏览器端发来的全部数据
@@ -54,9 +55,10 @@ public:
     sockaddr_in *get_address(){
         return &m_address;
     }
-    void initmysql_result();//同步线程初始化数据库读取表
+    //同步线程初始化数据库读取表
+    void initmysql_result(connection_pool *connPool, map<string, string> &);
     //CGI使用线程池初始化数据库表
-    void initresultFile(connection_pool *connPool);
+    void initresultFile(connection_pool *connPool, map<string, string> &);
 
 private:
     void init();
@@ -76,7 +78,7 @@ private:
     bool add_response(const char* format,...);
     bool add_content(const char* content);
     bool add_status_line(int status,const char* title);
-    bool add_headers(int content_length);
+    bool add_headers(int content_len);
     bool add_content_type();
     bool add_content_length(int content_len);
     bool add_linger();
@@ -116,6 +118,16 @@ private:
     char *m_string;//存储请求头数据
     int bytes_to_send;//剩余发送字节数
     int bytes_have_send;//已发送字节数
+    char *doc_root;//网站根目录
+
+    std::map<std::string, std::string> m_users;//将表中的用户名和密码放入map
+    int m_SQLVerify;
+    int m_TRIGMode;
+    int m_close_log;
+
+    char sql_user[100];
+    char sql_passwd[100];
+    char sql_name[100];
 };
 
 #endif //SERVER_HTTP_CONN_H

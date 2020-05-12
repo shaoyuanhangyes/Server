@@ -96,11 +96,81 @@ CMakeFiles/Server.dir/timer/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/timer/timer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syh/CLionProjects/Server/timer/timer.cpp -o CMakeFiles/Server.dir/timer/timer.cpp.s
 
+CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.o: CMakeFiles/Server.dir/flags.make
+CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.o: ../CGImysql/sql_connection_pool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/syh/CLionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.o -c /home/syh/CLionProjects/Server/CGImysql/sql_connection_pool.cpp
+
+CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/syh/CLionProjects/Server/CGImysql/sql_connection_pool.cpp > CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.i
+
+CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syh/CLionProjects/Server/CGImysql/sql_connection_pool.cpp -o CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.s
+
+CMakeFiles/Server.dir/CGImysql/sign.cpp.o: CMakeFiles/Server.dir/flags.make
+CMakeFiles/Server.dir/CGImysql/sign.cpp.o: ../CGImysql/sign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/syh/CLionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server.dir/CGImysql/sign.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/CGImysql/sign.cpp.o -c /home/syh/CLionProjects/Server/CGImysql/sign.cpp
+
+CMakeFiles/Server.dir/CGImysql/sign.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/CGImysql/sign.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/syh/CLionProjects/Server/CGImysql/sign.cpp > CMakeFiles/Server.dir/CGImysql/sign.cpp.i
+
+CMakeFiles/Server.dir/CGImysql/sign.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/CGImysql/sign.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syh/CLionProjects/Server/CGImysql/sign.cpp -o CMakeFiles/Server.dir/CGImysql/sign.cpp.s
+
+CMakeFiles/Server.dir/log/log.cpp.o: CMakeFiles/Server.dir/flags.make
+CMakeFiles/Server.dir/log/log.cpp.o: ../log/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/syh/CLionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server.dir/log/log.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/log/log.cpp.o -c /home/syh/CLionProjects/Server/log/log.cpp
+
+CMakeFiles/Server.dir/log/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/log/log.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/syh/CLionProjects/Server/log/log.cpp > CMakeFiles/Server.dir/log/log.cpp.i
+
+CMakeFiles/Server.dir/log/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/log/log.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syh/CLionProjects/Server/log/log.cpp -o CMakeFiles/Server.dir/log/log.cpp.s
+
+CMakeFiles/Server.dir/WebServer/webserver.cpp.o: CMakeFiles/Server.dir/flags.make
+CMakeFiles/Server.dir/WebServer/webserver.cpp.o: ../WebServer/webserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/syh/CLionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server.dir/WebServer/webserver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/WebServer/webserver.cpp.o -c /home/syh/CLionProjects/Server/WebServer/webserver.cpp
+
+CMakeFiles/Server.dir/WebServer/webserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/WebServer/webserver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/syh/CLionProjects/Server/WebServer/webserver.cpp > CMakeFiles/Server.dir/WebServer/webserver.cpp.i
+
+CMakeFiles/Server.dir/WebServer/webserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/WebServer/webserver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syh/CLionProjects/Server/WebServer/webserver.cpp -o CMakeFiles/Server.dir/WebServer/webserver.cpp.s
+
+CMakeFiles/Server.dir/config/config.cpp.o: CMakeFiles/Server.dir/flags.make
+CMakeFiles/Server.dir/config/config.cpp.o: ../config/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/syh/CLionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server.dir/config/config.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/config/config.cpp.o -c /home/syh/CLionProjects/Server/config/config.cpp
+
+CMakeFiles/Server.dir/config/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/config/config.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/syh/CLionProjects/Server/config/config.cpp > CMakeFiles/Server.dir/config/config.cpp.i
+
+CMakeFiles/Server.dir/config/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/config/config.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syh/CLionProjects/Server/config/config.cpp -o CMakeFiles/Server.dir/config/config.cpp.s
+
 # Object files for target Server
 Server_OBJECTS = \
 "CMakeFiles/Server.dir/main.cpp.o" \
 "CMakeFiles/Server.dir/http/http_conn.cpp.o" \
-"CMakeFiles/Server.dir/timer/timer.cpp.o"
+"CMakeFiles/Server.dir/timer/timer.cpp.o" \
+"CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.o" \
+"CMakeFiles/Server.dir/CGImysql/sign.cpp.o" \
+"CMakeFiles/Server.dir/log/log.cpp.o" \
+"CMakeFiles/Server.dir/WebServer/webserver.cpp.o" \
+"CMakeFiles/Server.dir/config/config.cpp.o"
 
 # External object files for target Server
 Server_EXTERNAL_OBJECTS =
@@ -108,9 +178,14 @@ Server_EXTERNAL_OBJECTS =
 Server: CMakeFiles/Server.dir/main.cpp.o
 Server: CMakeFiles/Server.dir/http/http_conn.cpp.o
 Server: CMakeFiles/Server.dir/timer/timer.cpp.o
+Server: CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.o
+Server: CMakeFiles/Server.dir/CGImysql/sign.cpp.o
+Server: CMakeFiles/Server.dir/log/log.cpp.o
+Server: CMakeFiles/Server.dir/WebServer/webserver.cpp.o
+Server: CMakeFiles/Server.dir/config/config.cpp.o
 Server: CMakeFiles/Server.dir/build.make
 Server: CMakeFiles/Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/syh/CLionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/syh/CLionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

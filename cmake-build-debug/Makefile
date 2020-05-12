@@ -123,6 +123,114 @@ Server/fast:
 	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/build
 .PHONY : Server/fast
 
+CGImysql/sign.o: CGImysql/sign.cpp.o
+
+.PHONY : CGImysql/sign.o
+
+# target to build an object file
+CGImysql/sign.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/CGImysql/sign.cpp.o
+.PHONY : CGImysql/sign.cpp.o
+
+CGImysql/sign.i: CGImysql/sign.cpp.i
+
+.PHONY : CGImysql/sign.i
+
+# target to preprocess a source file
+CGImysql/sign.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/CGImysql/sign.cpp.i
+.PHONY : CGImysql/sign.cpp.i
+
+CGImysql/sign.s: CGImysql/sign.cpp.s
+
+.PHONY : CGImysql/sign.s
+
+# target to generate assembly for a file
+CGImysql/sign.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/CGImysql/sign.cpp.s
+.PHONY : CGImysql/sign.cpp.s
+
+CGImysql/sql_connection_pool.o: CGImysql/sql_connection_pool.cpp.o
+
+.PHONY : CGImysql/sql_connection_pool.o
+
+# target to build an object file
+CGImysql/sql_connection_pool.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.o
+.PHONY : CGImysql/sql_connection_pool.cpp.o
+
+CGImysql/sql_connection_pool.i: CGImysql/sql_connection_pool.cpp.i
+
+.PHONY : CGImysql/sql_connection_pool.i
+
+# target to preprocess a source file
+CGImysql/sql_connection_pool.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.i
+.PHONY : CGImysql/sql_connection_pool.cpp.i
+
+CGImysql/sql_connection_pool.s: CGImysql/sql_connection_pool.cpp.s
+
+.PHONY : CGImysql/sql_connection_pool.s
+
+# target to generate assembly for a file
+CGImysql/sql_connection_pool.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/CGImysql/sql_connection_pool.cpp.s
+.PHONY : CGImysql/sql_connection_pool.cpp.s
+
+WebServer/webserver.o: WebServer/webserver.cpp.o
+
+.PHONY : WebServer/webserver.o
+
+# target to build an object file
+WebServer/webserver.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/WebServer/webserver.cpp.o
+.PHONY : WebServer/webserver.cpp.o
+
+WebServer/webserver.i: WebServer/webserver.cpp.i
+
+.PHONY : WebServer/webserver.i
+
+# target to preprocess a source file
+WebServer/webserver.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/WebServer/webserver.cpp.i
+.PHONY : WebServer/webserver.cpp.i
+
+WebServer/webserver.s: WebServer/webserver.cpp.s
+
+.PHONY : WebServer/webserver.s
+
+# target to generate assembly for a file
+WebServer/webserver.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/WebServer/webserver.cpp.s
+.PHONY : WebServer/webserver.cpp.s
+
+config/config.o: config/config.cpp.o
+
+.PHONY : config/config.o
+
+# target to build an object file
+config/config.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/config/config.cpp.o
+.PHONY : config/config.cpp.o
+
+config/config.i: config/config.cpp.i
+
+.PHONY : config/config.i
+
+# target to preprocess a source file
+config/config.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/config/config.cpp.i
+.PHONY : config/config.cpp.i
+
+config/config.s: config/config.cpp.s
+
+.PHONY : config/config.s
+
+# target to generate assembly for a file
+config/config.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/config/config.cpp.s
+.PHONY : config/config.cpp.s
+
 http/http_conn.o: http/http_conn.cpp.o
 
 .PHONY : http/http_conn.o
@@ -149,6 +257,33 @@ http/http_conn.s: http/http_conn.cpp.s
 http/http_conn.cpp.s:
 	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/http/http_conn.cpp.s
 .PHONY : http/http_conn.cpp.s
+
+log/log.o: log/log.cpp.o
+
+.PHONY : log/log.o
+
+# target to build an object file
+log/log.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/log/log.cpp.o
+.PHONY : log/log.cpp.o
+
+log/log.i: log/log.cpp.i
+
+.PHONY : log/log.i
+
+# target to preprocess a source file
+log/log.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/log/log.cpp.i
+.PHONY : log/log.cpp.i
+
+log/log.s: log/log.cpp.s
+
+.PHONY : log/log.s
+
+# target to generate assembly for a file
+log/log.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/log/log.cpp.s
+.PHONY : log/log.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,9 +348,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Server"
+	@echo "... CGImysql/sign.o"
+	@echo "... CGImysql/sign.i"
+	@echo "... CGImysql/sign.s"
+	@echo "... CGImysql/sql_connection_pool.o"
+	@echo "... CGImysql/sql_connection_pool.i"
+	@echo "... CGImysql/sql_connection_pool.s"
+	@echo "... WebServer/webserver.o"
+	@echo "... WebServer/webserver.i"
+	@echo "... WebServer/webserver.s"
+	@echo "... config/config.o"
+	@echo "... config/config.i"
+	@echo "... config/config.s"
 	@echo "... http/http_conn.o"
 	@echo "... http/http_conn.i"
 	@echo "... http/http_conn.s"
+	@echo "... log/log.o"
+	@echo "... log/log.i"
+	@echo "... log/log.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
