@@ -1,0 +1,140 @@
+2020-05-11 23:59:43.164882 [info]: deal with the client(127.0.0.1)
+2020-05-11 23:59:43.164944 [info]: adjust timer once
+2020-05-11 23:59:43.164958 [info]: GET / HTTP/1.1
+2020-05-11 23:59:43.164997 [info]: Host: 127.0.0.1:9006
+2020-05-11 23:59:43.165002 [info]: Connection: keep-alive
+2020-05-11 23:59:43.165006 [info]: Upgrade-Insecure-Requests: 1
+2020-05-11 23:59:43.165010 [info]: Unknow header: Upgrade-Insecure-Requests: 1
+2020-05-11 23:59:43.165014 [info]: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-11 23:59:43.165018 [info]: Unknow header: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-11 23:59:43.165022 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-05-11 23:59:43.165025 [info]: Unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-05-11 23:59:43.165029 [info]: Sec-Fetch-Site: none
+2020-05-11 23:59:43.165032 [info]: Unknow header: Sec-Fetch-Site: none
+2020-05-11 23:59:43.165036 [info]: Sec-Fetch-Mode: navigate
+2020-05-11 23:59:43.165039 [info]: Unknow header: Sec-Fetch-Mode: navigate
+2020-05-11 23:59:43.165043 [info]: Sec-Fetch-User: ?1
+2020-05-11 23:59:43.165046 [info]: Unknow header: Sec-Fetch-User: ?1
+2020-05-11 23:59:43.165050 [info]: Sec-Fetch-Dest: document
+2020-05-11 23:59:43.165053 [info]: Unknow header: Sec-Fetch-Dest: document
+2020-05-11 23:59:43.165056 [info]: Accept-Encoding: gzip, deflate, br
+2020-05-11 23:59:43.165060 [info]: Unknow header: Accept-Encoding: gzip, deflate, br
+2020-05-11 23:59:43.165063 [info]: Accept-Language: zh-CN,zh;q=0.9
+2020-05-11 23:59:43.165067 [info]: Unknow header: Accept-Language: zh-CN,zh;q=0.9
+2020-05-11 23:59:43.165070 [info]: 
+2020-05-11 23:59:43.165087 [info]: request:HTTP/1.1 200 OK
+
+2020-05-11 23:59:43.165092 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2020-05-11 23:59:43.165095 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2020-05-11 23:59:43.165099 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2020-05-11 23:59:43.165158 [info]: send data to the client(127.0.0.1)
+2020-05-11 23:59:43.165170 [info]: adjust timer once
+2020-05-11 23:59:45.163762 [info]: deal with the client(127.0.0.1)
+2020-05-11 23:59:45.163806 [info]: adjust timer once
+2020-05-11 23:59:45.163818 [info]: POST /0 HTTP/1.1
+2020-05-11 23:59:45.163851 [info]: Host: 127.0.0.1:9006
+2020-05-11 23:59:45.163857 [info]: Connection: keep-alive
+2020-05-11 23:59:45.163861 [info]: Content-Length: 0
+2020-05-11 23:59:45.163868 [info]: Cache-Control: max-age=0
+2020-05-11 23:59:45.163872 [info]: Unknow header: Cache-Control: max-age=0
+2020-05-11 23:59:45.163876 [info]: Upgrade-Insecure-Requests: 1
+2020-05-11 23:59:45.163880 [info]: Unknow header: Upgrade-Insecure-Requests: 1
+2020-05-11 23:59:45.163883 [info]: Origin: http://127.0.0.1:9006
+2020-05-11 23:59:45.163887 [info]: Unknow header: Origin: http://127.0.0.1:9006
+2020-05-11 23:59:45.163891 [info]: Content-Type: application/x-www-form-urlencoded
+2020-05-11 23:59:45.163894 [info]: Unknow header: Content-Type: application/x-www-form-urlencoded
+2020-05-11 23:59:45.163898 [info]: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-11 23:59:45.163902 [info]: Unknow header: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-11 23:59:45.163906 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-05-11 23:59:45.163910 [info]: Unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-05-11 23:59:45.163914 [info]: Sec-Fetch-Site: same-origin
+2020-05-11 23:59:45.163923 [info]: Unknow header: Sec-Fetch-Site: same-origin
+2020-05-11 23:59:45.163927 [info]: Sec-Fetch-Mode: navigate
+2020-05-11 23:59:45.163930 [info]: Unknow header: Sec-Fetch-Mode: navigate
+2020-05-11 23:59:45.163934 [info]: Sec-Fetch-User: ?1
+2020-05-11 23:59:45.163938 [info]: Unknow header: Sec-Fetch-User: ?1
+2020-05-11 23:59:45.163941 [info]: Sec-Fetch-Dest: document
+2020-05-11 23:59:45.163945 [info]: Unknow header: Sec-Fetch-Dest: document
+2020-05-11 23:59:45.163948 [info]: Referer: http://127.0.0.1:9006/
+2020-05-11 23:59:45.163952 [info]: Unknow header: Referer: http://127.0.0.1:9006/
+2020-05-11 23:59:45.163955 [info]: Accept-Encoding: gzip, deflate, br
+2020-05-11 23:59:45.163959 [info]: Unknow header: Accept-Encoding: gzip, deflate, br
+2020-05-11 23:59:45.163962 [info]: Accept-Language: zh-CN,zh;q=0.9
+2020-05-11 23:59:45.163966 [info]: Unknow header: Accept-Language: zh-CN,zh;q=0.9
+2020-05-11 23:59:45.163969 [info]: 
+2020-05-11 23:59:45.163985 [info]: request:HTTP/1.1 200 OK
+
+2020-05-11 23:59:45.163990 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+
+2020-05-11 23:59:45.163993 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+Connection:keep-alive
+
+2020-05-11 23:59:45.163997 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+Connection:keep-alive
+
+
+2020-05-11 23:59:45.164057 [info]: send data to the client(127.0.0.1)
+2020-05-11 23:59:45.164070 [info]: adjust timer once
+2020-05-11 23:59:55.351439 [info]: close fd 17
+2020-05-11 23:59:55.351712 [info]: deal with the client(127.0.0.1)
+2020-05-11 23:59:55.351739 [info]: adjust timer once
+2020-05-11 23:59:55.351756 [info]: POST /3CGISQL.cgi HTTP/1.1
+2020-05-11 23:59:55.351804 [info]: Host: 127.0.0.1:9006
+2020-05-11 23:59:55.351810 [info]: Connection: keep-alive
+2020-05-11 23:59:55.351814 [info]: Content-Length: 28
+2020-05-11 23:59:55.351818 [info]: Cache-Control: max-age=0
+2020-05-11 23:59:55.351822 [info]: Unknow header: Cache-Control: max-age=0
+2020-05-11 23:59:55.351826 [info]: Upgrade-Insecure-Requests: 1
+2020-05-11 23:59:55.351829 [info]: Unknow header: Upgrade-Insecure-Requests: 1
+2020-05-11 23:59:55.351833 [info]: Origin: http://127.0.0.1:9006
+2020-05-11 23:59:55.351836 [info]: Unknow header: Origin: http://127.0.0.1:9006
+2020-05-11 23:59:55.351840 [info]: Content-Type: application/x-www-form-urlencoded
+2020-05-11 23:59:55.351843 [info]: Unknow header: Content-Type: application/x-www-form-urlencoded
+2020-05-11 23:59:55.351847 [info]: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-11 23:59:55.351851 [info]: Unknow header: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-11 23:59:55.351855 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-05-11 23:59:55.351858 [info]: Unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-05-11 23:59:55.351862 [info]: Sec-Fetch-Site: same-origin
+2020-05-11 23:59:55.351865 [info]: Unknow header: Sec-Fetch-Site: same-origin
+2020-05-11 23:59:55.351869 [info]: Sec-Fetch-Mode: navigate
+2020-05-11 23:59:55.351873 [info]: Unknow header: Sec-Fetch-Mode: navigate
+2020-05-11 23:59:55.351876 [info]: Sec-Fetch-User: ?1
+2020-05-11 23:59:55.351879 [info]: Unknow header: Sec-Fetch-User: ?1
+2020-05-11 23:59:55.351883 [info]: Sec-Fetch-Dest: document
+2020-05-11 23:59:55.351886 [info]: Unknow header: Sec-Fetch-Dest: document
+2020-05-11 23:59:55.351890 [info]: Referer: http://127.0.0.1:9006/0
+2020-05-11 23:59:55.351893 [info]: Unknow header: Referer: http://127.0.0.1:9006/0
+2020-05-11 23:59:55.351897 [info]: Accept-Encoding: gzip, deflate, br
+2020-05-11 23:59:55.351900 [info]: Unknow header: Accept-Encoding: gzip, deflate, br
+2020-05-11 23:59:55.351904 [info]: Accept-Language: zh-CN,zh;q=0.9
+2020-05-11 23:59:55.351907 [info]: Unknow header: Accept-Language: zh-CN,zh;q=0.9
+2020-05-11 23:59:55.351915 [info]: 
+2020-05-11 23:59:55.351919 [info]: user=Ruojhen&password=960725
+2020-05-11 23:59:55.373781 [info]: request:HTTP/1.1 200 OK
+
+2020-05-11 23:59:55.373809 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+
+2020-05-11 23:59:55.373815 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+2020-05-11 23:59:55.373818 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+
+2020-05-11 23:59:55.373893 [info]: send data to the client(127.0.0.1)
+2020-05-11 23:59:55.373913 [info]: adjust timer once

@@ -9,12 +9,15 @@
 #include <sstream>
 using namespace std;
 
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[])
+{
     map<string, string> users;
+
     locker lock;
     string SQLVerify(argv[3]);
-
-    if (SQLVerify=="2"){
+    
+    if ("2" == SQLVerify)
+    {
         string sql_user(argv[4]);
         string sql_passwd(argv[5]);
         string sql_name(argv[6]);
@@ -29,13 +32,15 @@ int main(int argc, char *argv[]){
         }
         con = mysql_real_connect(con, "localhost", sql_user.c_str(), sql_passwd.c_str(), sql_name.c_str(), 3306, NULL, 0);
 
-        if (con == NULL){
+        if (con == NULL)
+        {
             cout << "Error: " << mysql_error(con);
             exit(1);
         }
 
         //在user表中检索username，passwd数据，浏览器端输入
-        if (mysql_query(con, "SELECT username,passwd FROM user")){
+        if (mysql_query(con, "SELECT username,passwd FROM user"))
+        {
             printf("INSERT error:%s\n", mysql_error(con));
             return -1;
         }
@@ -47,7 +52,8 @@ int main(int argc, char *argv[]){
         MYSQL_FIELD *fields = mysql_fetch_fields(result);
 
         //从结果集中获取下一行，将对应的用户名和密码，存入map中
-        while (MYSQL_ROW row = mysql_fetch_row(result)){
+        while (MYSQL_ROW row = mysql_fetch_row(result))
+        {
             string temp1(row[0]);
             string temp2(row[1]);
             users[temp1] = temp2;
@@ -69,13 +75,15 @@ int main(int argc, char *argv[]){
         strcat(sql_insert, passwdp);
         strcat(sql_insert, "')");
 
-        if (flag == '3'){
-            if (users.find(name) == users.end()){
+        if (flag == '3')
+        {
+            if (users.find(name) == users.end())
+            {
                 lock.lock();
                 int res = mysql_query(con, sql_insert);
                 lock.unlock();
 
-                if(!res)
+                if (!res)
                     printf("1\n");
                 else
                     printf("0\n");
@@ -83,9 +91,10 @@ int main(int argc, char *argv[]){
             else
                 printf("0\n");
         }
-            //如果是登录，直接判断
-            //若浏览器端输入的用户名和密码在表中可以查找到，返回1，否则返回0
-        else if (flag == '2'){
+        //如果是登录，直接判断
+        //若浏览器端输入的用户名和密码在表中可以查找到，返回1，否则返回0
+        else if (flag == '2')
+        {
             if (users.find(name) != users.end() && users[name] == passwd)
                 printf("1\n");
             else
@@ -96,10 +105,12 @@ int main(int argc, char *argv[]){
         //释放结果集使用的内存
         mysql_free_result(result);
     }
-    else{
+    else
+    {
         ifstream out(argv[2]);
         string linestr;
-        while (getline(out, linestr)){
+        while (getline(out, linestr))
+        {
             string str;
             stringstream id_passwd(linestr);
 
